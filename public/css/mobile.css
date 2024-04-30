@@ -1,0 +1,39 @@
+/* CSS */
+/* PAGE: Laravel5 */
+/* AUTHOR: hyperstud.io */
+
+/* General */
+
+
+
+/* iPhone Portrait */
+@media only screen and (max-width : 320px){
+
+
+
+
+}
+
+/* iPhone Landscape */
+
+@media only screen and (min-width: 480px) and (orientation:landscape){
+
+
+
+}
+
+/* Tablet Portrait */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:portrait){
+
+
+
+}
+
+/* Tablet Landscape */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation:landscape){
+
+
+
+}

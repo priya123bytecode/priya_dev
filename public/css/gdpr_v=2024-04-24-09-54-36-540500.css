@@ -1,0 +1,147 @@
+/* CSS */
+/* GDPR BANNER */
+/* AUTHOR: hyperstud.io */
+
+#banner{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 25px 0px 25px 0px;
+    background: rgba(0,0,0,1);
+    margin: 0 auto;
+    z-index: 2000;
+
+    -webkit-transform:translateY(100%);
+    -moz-transform:translateY(100%);
+    transform:translateY(100%);
+
+    -webkit-transition: all 800ms ease;                  
+    -moz-transition: all 800ms ease;                 
+    -o-transition: all 800ms ease;   
+    -ms-transition: all 800ms ease;          
+    transition: all 800ms ease; 
+}
+
+#banner.trans{
+    bottom:0px;
+    -webkit-transform:translateY(0);
+    -moz-transform:translateY(0);
+    transform:translateY(0);
+}
+
+#banner .notification{
+    display:block;
+    margin-right:340px;
+    font-size: 13px;
+    line-height: 1.2em;
+    color:#fff;
+}
+
+#banner .notification a,
+#banner .notification a:visited{
+    padding-bottom:1px;
+    color:#fff;
+}
+
+#banner .notification a:hover{
+    color: #fff;
+}
+
+#banner .btn.agree{
+    position: absolute;
+    top:50%;
+    right:40px;
+    height:44px;
+    margin-top:-24px;
+    white-space: nowrap;
+    padding: 13px 14px 15px 14px;
+    color:#fff;
+    border:2px solid #fff;
+    font-size:15px;
+}
+
+#banner .btn.privacy{
+    position: absolute;
+    top:50%;
+    right:157px;
+    height:44px;
+    margin-top:-24px;
+    white-space: nowrap;
+    padding: 13px 14px 15px 14px;
+    color:#fff;
+    border:2px solid #fff;
+    font-size:15px;
+}
+
+
+
+
+
+
+
+
+
+/* iPhone */
+
+@media (max-width: 1640px){
+
+    #banner .btn.privacy{
+        right:147px;
+    }
+
+@media (max-width:768px) { 
+
+    #banner .notification{
+        margin-right:0px;
+    }
+
+
+    #banner .btn.agree{
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        top:auto;
+        right:auto;
+        width:calc(50% - 5px);
+        height:44px;
+        margin-top:10px;
+        white-space: nowrap;
+        padding: 14px 14px;
+        color:#fff;
+        border:2px solid #fff;
+        font-size:15px;
+    }
+
+    #banner .btn.privacy{
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        top:auto;
+        right:auto;
+        width:calc(50% - 5px);
+        height:44px;
+        margin-top:10px;
+        margin-right:10px;
+        white-space: nowrap;
+        padding: 14px 14px;
+        color:#fff;
+        border:2px solid #fff;
+        font-size:15px;
+    }
+
+
+    #banner .btn.privacy,
+    #banner .btn.agree{
+        font-size: 12px !important;
+    }
+
+}
+
+@media (max-width: 481px){
+
+
+}
+
+
+

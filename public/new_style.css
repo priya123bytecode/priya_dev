@@ -2,17 +2,14 @@
     padding: 0px;
     margin: 0px;
 }
-/* .banner_sec{
-     color: red;
-     font-size: 50px;
-} */
+
 .banner_main{
     background-image: url("https://natsana.com/content/photos/natsana-2021-01-07-21-00-54-780000.jpg"); 
     width: 100%;
-    height: 100vh;
+    height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+   /* position: absolute;*/
 }
 .banner_txt {
     width: 50%;
@@ -67,10 +64,136 @@ h1.banner_top {
      justify-content: center;
      align-items: center;
 }
-.txt_img_left{
+.txt_img_left {
+    width: 50%;
+    padding-left: 30px;
+}
+.txt_img_right {
+    width: 50%;
+    background-color: #a8d59d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.txt_img_right img {
+    width: 59%;
+    /* margin: auto; */
+    /* height: 89vh; */
+    padding: 35px 0px;
+}
+.txt_img_left h3{
+    font-size: 55px;
+}
+.txt_img_left p{
+    font-size: 22px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    width: 80%;
+    line-height: 1.4;
+}
+.txt_img_left a.btn_link{
+    text-decoration: none;
+    background-color: #648f34;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 24px;
+}
+/*** bg_txt_sec ***/
+.bg_txt_container{
+    background-image: url("https://natsana.com/content/photos/natsana-2021-01-07-21-56-59-291700.jpg"); 
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: absolute;   */
+}
+.bg_txt_sect{
+    width: 70%;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #e8fbe3;
+}
+.bg_txt_sect h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.bg_txt_sect p{
+    font-size: 25px;
+    line-height: 1.3em;
+}
+.left_img_txt{
+      width: 100%;
+      height: 100vh;
+}
+.left_img_txt_spacing{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+}
+.left_img_sect{
      width: 50%;
 }
-.txt_img_right{
-       width: 50%;
-      
+.left_img_content{
+    width: 50%;
+    }
+.left_img_sect img{
+       width: 100%;
+       height: 600px;
 }
+.left_img_content h2{
+    font-size: 60px;
+}
+.left_img_content h3 {
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+.left_img_content p {
+    font-size: 20px;
+    width: 60%;
+}
+.left_img_content_spacing {
+    padding-left: 40px;
+}
+/*accordian_sect*/
+.accordion {
+    width: 80%;
+    margin: auto;
+}
+.accordion-item {
+    border-bottom: 1px solid black;
+}
+
+.accordion-header {
+    padding: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    font-weight: 600;
+    justify-content: space-between;
+    align-items: center;
+}
+span.icon {
+    font-size: 45px;
+    font-weight: 900;
+}
+.accordion-content {
+  display: none;
+  padding: 10px;
+}
+
+.icon {
+  float: right;
+}
+
+.rotate {
+  transform: rotate(45deg);
+}
+.accordion-item.border_exception {
+    border-top: 1px solid black;
+}
+
+  
+  
